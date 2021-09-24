@@ -18,13 +18,13 @@ Note: The bot will start a thread for every mnemonic/privatekey. This means that
 
 Edit the `config.json` file to your needs.
 
-`rpc_urls` -> an array of rpc providers (one or more)
-`mnemonics` -> an array of mnemonics
-`privateKeys` -> an array of private keys
-`bid_price` -> amount of `WETH` you want to bid on the assets
-`expiration` -> amount of hours in which you want your offer/bid to expire
-`timeout` -> timeout in `ms` per bid
-`proxied` -> boolean `false`/`true` . if `true`, will read proxies from `proxies.txt`
+`rpc_urls` -> an array of rpc providers (one or more)<br>
+`mnemonics` -> an array of mnemonics<br>
+`privateKeys` -> an array of private keys<br>
+`bid_price` -> amount of `WETH` you want to bid on the assets<br>
+`expiration` -> amount of hours in which you want your offer/bid to expire<br>
+`timeout` -> timeout in `ms` per bid<br>
+`proxied` -> boolean `false`/`true` . if `true`, will read proxies from `proxies.txt`<br>
 `targets` -> array of targets with the `address` and `supply` of the collection. the `address` can be found in the url when visiting an asset from this collection; `https://opensea.io/assets/<COLLECTION_ADDRESS>/<token_id (not relevant)>`. the `supply` is the amount of tokens in existence.
 
 ##### Always have either one private key or mnemonic !!!
