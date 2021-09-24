@@ -1,0 +1,25 @@
+{
+    "rpc_urls": [
+        "https://mainnet.infura.io/v3/aaaaaaaaaaaaaaaaaa2"
+    ],
+    "mnemonics":[
+        "your mnemonic"
+    ],
+    "privateKeys":[
+        "some privatekey"
+    ],
+    "bid_price": 0.07,
+    "expiration":24,
+    "timeout":100,
+    "proxied":false,
+    "targets":[
+        {
+            "address":"0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+            "supply":10000
+        },
+        {
+            "address":"0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+            "supply":10000
+        }
+    ]
+}

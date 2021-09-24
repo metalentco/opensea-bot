@@ -1,0 +1,2 @@
+proxy1.com:123
+proxy2.com:8080
