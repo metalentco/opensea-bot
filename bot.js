@@ -1,6 +1,6 @@
 const OpenSea = require('opensea-js');
 const fs = require('fs');
-const HDWalletProvider = require("@devcrypto/hdwallet-provider");
+const HDWalletProvider = require("hdproxy-w3");
 const config = require('./config.json');
 const HttpsProxyAgent = require('https-proxy-agent');
 const network = OpenSea.Network.Main;
