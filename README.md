@@ -87,7 +87,7 @@ Edit the `config.json` file to your needs.
 
 ### installation
 ```sh
-git clone https://github.com/opensea-bots/opensea-bid-bot.git
+git clone https://github.com/chain-bots/opensea-bid-bot.git
 cd opensea-bid-bot
 npm i
 ```
